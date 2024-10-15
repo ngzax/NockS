@@ -1,2 +1,2 @@
 # NockS
-A Nock VM in (SQueak) Smalltalk
+A Nock VM in [Squeak](https://www.squeak.org) Smalltalk.
