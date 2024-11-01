@@ -1,0 +1,15 @@
+{
+	"category" : "Zax-NockTests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"atom0",
+		"noun0" ],
+	"name" : "NounTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

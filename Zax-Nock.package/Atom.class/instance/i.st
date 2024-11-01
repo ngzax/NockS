@@ -1,0 +1,4 @@
+private
+i
+	"Private"
+	^ i

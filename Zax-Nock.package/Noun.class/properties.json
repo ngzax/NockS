@@ -1,0 +1,14 @@
+{
+	"category" : "Zax-Nock",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "Noun",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

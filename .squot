@@ -1,0 +1,4 @@
+OrderedDictionary {
+	'Zax-Nock.package' : #SquotCypressCodeSerializer,
+	'Zax-NockTests.package' : #SquotCypressCodeSerializer
+}
