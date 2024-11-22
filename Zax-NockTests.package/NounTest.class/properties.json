@@ -4,10 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "DJR 11/22/2024 16:06",
 	"instvars" : [
 		"atom0",
-		"noun0" ],
+		"cell0" ],
 	"name" : "NounTest",
 	"pools" : [
 		 ],

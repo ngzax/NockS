@@ -2,5 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "DJR 10/18/2024 15:27",
-		"testIsEqualToItself" : "DJR 10/18/2024 15:10" } }
+		"setUp" : "DJR 11/22/2024 16:06",
+		"testIsEqualToItself" : "DJR 11/22/2024 16:08",
+		"testKnowsIfItsAnAtom" : "DJR 11/22/2024 16:09" } }
