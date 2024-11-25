@@ -1,0 +1,4 @@
+accessing
+ary
+
+	^ ary
