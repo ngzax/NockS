@@ -10,4 +10,5 @@
 		"testHasRightAssociativityForNTuples" : "DJR 11/27/2024 09:38",
 		"testIsEqualIfInternalTupleTreeIsIdentical" : "DJR 11/25/2024 16:36",
 		"testIsEqualToItself" : "DJR 11/25/2024 16:28",
-		"testKnowsIfItsAnAtom" : "DJR 11/25/2024 16:29" } }
+		"testKnowsIfItsAnAtom" : "DJR 11/25/2024 16:29",
+		"testRetrievingAtIndexRoot" : "DJR 11/27/2024 16:17" } }
