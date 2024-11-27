@@ -3,8 +3,11 @@
 		 },
 	"instance" : {
 		"setUp" : "DJR 11/25/2024 16:27",
-		"testHasRightAssociativity" : "DJR 11/26/2024 17:24",
-		"testHasRightAssociativityForNTuples" : "DJR 11/26/2024 17:31",
+		"testHasRightAssociativity" : "DJR 11/27/2024 09:42",
+		"testHasRightAssociativityFor2Tuples" : "DJR 11/27/2024 09:42",
+		"testHasRightAssociativityFor3Tuples" : "DJR 11/27/2024 09:40",
+		"testHasRightAssociativityFor4Tuples" : "DJR 11/27/2024 09:39",
+		"testHasRightAssociativityForNTuples" : "DJR 11/27/2024 09:38",
 		"testIsEqualIfInternalTupleTreeIsIdentical" : "DJR 11/25/2024 16:36",
 		"testIsEqualToItself" : "DJR 11/25/2024 16:28",
 		"testKnowsIfItsAnAtom" : "DJR 11/25/2024 16:29" } }
