@@ -3,12 +3,12 @@
 		 },
 	"instance" : {
 		"setUp" : "DJR 11/25/2024 16:27",
-		"testHasRightAssociativity" : "DJR 11/27/2024 09:42",
-		"testHasRightAssociativityFor2Tuples" : "DJR 11/27/2024 09:42",
-		"testHasRightAssociativityFor3Tuples" : "DJR 11/27/2024 09:40",
-		"testHasRightAssociativityFor4Tuples" : "DJR 11/27/2024 09:39",
-		"testHasRightAssociativityForNTuples" : "DJR 11/27/2024 09:38",
+		"testHasRightAssociativity" : "DJR 11/27/2024 17:16",
+		"testHasRightAssociativityFor2Tuples" : "DJR 11/27/2024 17:09",
+		"testHasRightAssociativityFor3Tuples" : "DJR 11/27/2024 17:18",
+		"testHasRightAssociativityFor4Tuples" : "DJR 11/27/2024 17:19",
+		"testHasRightAssociativityForNTuples" : "DJR 11/27/2024 17:13",
 		"testIsEqualIfInternalTupleTreeIsIdentical" : "DJR 11/25/2024 16:36",
 		"testIsEqualToItself" : "DJR 11/25/2024 16:28",
 		"testKnowsIfItsAnAtom" : "DJR 11/25/2024 16:29",
-		"testRetrievingAtIndexRoot" : "DJR 11/27/2024 16:17" } }
+		"testRetrievingAtIndexRoot" : "DJR 11/27/2024 17:20" } }

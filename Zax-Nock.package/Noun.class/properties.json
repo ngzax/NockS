@@ -6,7 +6,6 @@
 		 ],
 	"commentStamp" : "DJR 11/25/2024 16:41",
 	"instvars" : [
-		"ary",
 		"n" ],
 	"name" : "Noun",
 	"pools" : [
