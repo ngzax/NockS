@@ -6,3 +6,5 @@ setUp
 
 	cell01a := Noun fromArray: (Array with: 0 with: 1).
 	cell01b := Noun fromArray: (Array with: 0 with: 1).
+	
+	noun012 := Noun fromArray: #(#(0 1) #(2)).
