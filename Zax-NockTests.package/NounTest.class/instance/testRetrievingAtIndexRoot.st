@@ -5,5 +5,5 @@ testRetrievingAtIndexRoot
 	
 	"Atom"
 	self assert: [(atom0 atIndex: 1) = atom0].
-	self assert: [cell0 atIndex: 1 = cell0].
-	self assert: [noun0 atIndex: 1 = noun0].
+	self assert: [(cell0 atIndex: 1) = cell0].
+	self assert: [(noun0 atIndex: 1) = noun0].
