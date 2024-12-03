@@ -1,6 +1,6 @@
 instance creation
 fromArray: anArray
-	"Answers a new instance of a Noun (either an Atom or Cell subclass)
+	"Answers a new instance of a Noun (always either an Atom or Cell subclass)
 	 depending on the contents of the Array"
 	| tuples |
  

@@ -1,4 +1,4 @@
 testing
 testIsEqualIfInternalTupleTreeIsIdentical
 
-	self assert: [cell0 = noun0].
+	self assert: [cell01a = cell01b].

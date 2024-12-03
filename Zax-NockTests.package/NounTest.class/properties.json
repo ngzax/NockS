@@ -7,8 +7,9 @@
 	"commentStamp" : "DJR 11/22/2024 16:06",
 	"instvars" : [
 		"atom0",
-		"cell0",
-		"noun0" ],
+		"atom1",
+		"cell01a",
+		"cell01b" ],
 	"name" : "NounTest",
 	"pools" : [
 		 ],
