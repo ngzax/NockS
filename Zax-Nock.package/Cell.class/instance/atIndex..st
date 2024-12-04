@@ -8,9 +8,21 @@ atIndex: aNumber
 		(aNumber = 3) ifTrue: [^ self t].
 		
 		bin := (String streamContents: [:str | aNumber printOn: str base: 2]) allButFirst.
+		bin isNil ifTrue: [Error signal: 'Invalid Index'].
+		
 		noun := self.
 		depth := 0.
 		
-		bin do: [:index | noun isCell ifTrue: [^ noun h]].
+		bin do: [:b |
+			depth := depth + 1.
+			noun isCell 
+				ifTrue: [
+					(b = $0) ifTrue: [noun := noun h] ifFalse: [noun := noun t].
+				] 
+				ifFalse: [
+					(depth < bin size) ifFalse: [Error signal: 'Invalid Index']
+				].
+		].
+		^ noun.
 	].
-	Error signal: 'Invalid Index'.
+	Error signal: 'Invalid Index'. "Period or right bracket expected ->"

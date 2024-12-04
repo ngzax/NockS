@@ -1,4 +1,4 @@
 tests
 testCanBePrinted
 
-	self assert: [zod printString = 'anAtom(0)'].
+	self assert: [zod printString = '0'].
