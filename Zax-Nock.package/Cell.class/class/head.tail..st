@@ -1,7 +1,8 @@
 instance creation
-head: aNoun tail: anotherNoun
-	"Answers a new initialized Cell"
+head: aNoun tail: anotherNoun 
+	"Answers a new
+	initialized Cell"
 	^ self basicNew 
-		h: aNoun; 
-		t: anotherNoun;
-		yourself.
+			head: aNoun;
+		 	tail: anotherNoun;
+		 	yourself
