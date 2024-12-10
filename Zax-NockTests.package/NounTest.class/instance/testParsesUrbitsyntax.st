@@ -9,7 +9,7 @@ testParsesUrbitsyntax
 	self assert: [u atIndex: 2 = #(0)].
 	self assert: [u atIndex: 6 = #(1)].
 
-	"[[50 51] [0 2]] => [[50, 51] [0, 2]]"
+	"[[50 51] [0 2]] => [[50, 51], [0, 2]]"
 	u := (Noun fromString: '[50 51] [0 2]').	
 	self assert: [u asArray = #(#(#(50) #(51)) #(#(0) #(2)))].
 	self assert: [u atIndex: 2 = #(#(50) #(51))].

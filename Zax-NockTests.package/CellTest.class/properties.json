@@ -1,0 +1,19 @@
+{
+	"category" : "Zax-NockTests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "DJR 12/10/2024 16:50",
+	"instvars" : [
+		"atom0",
+		"atom1",
+		"cell_aa",
+		"cell_ac",
+		"cell_ca",
+		"cell_cc" ],
+	"name" : "CellTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
