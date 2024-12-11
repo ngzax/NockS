@@ -1,4 +1,5 @@
 tests
 testCanBeRepresentedAsAnArray
 
-	self assert: [zod asArray = (Array with: 0)].
+	"An Atom represents itself in Array format as an Integer." 
+	self assert: [zod asArray = 0].

@@ -2,4 +2,16 @@ instance creation
 fromString: aString
 	"Answers a new instance of a Noun (always either an Atom or Cell subclass)
 	 depending on the contents of the String which is in Urbit Nock format."
-	^ Noun fromArray: (Array withAll: (aString findTokens collect: [:t | (t select: [:each | each isDigit]) asNumber])).
+	| a aa |
+	"First split out any cells"
+	a := (aString copyReplaceTokens: ' ' with: ',') findTokens: ','.
+	(a size = 1) ifTrue: [
+		^ Noun fromArray: ((((a at: 1) copyWithRegex: '\s' matchesReplacedWith: ',') findTokens: ',') collect: [:t | (t select: [:each | each isDigit]) asNumber]) asArray.
+	].
+	
+	"Now split any of those cells"
+	aa := a collect: [:cell | (((cell at: 1) copyWithRegex: '\s' matchesReplacedWith: ',') findTokens: ',') collect: [:t | (t select: [:each | each isDigit]) asNumber]].
+
+	^ Noun fromArray: aa asArray.
+	
+	"(Array withAll: ((s findTokens: ',') collect: [:t | (t select: [:each | each isDigit]) asNumber]))."
