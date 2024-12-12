@@ -12,6 +12,6 @@ testParsesUrbitsyntax
 	"[[50 51] [0 2]] => [[50, 51], [0, 2]]"
 	u := (Noun fromString: '[50 51] [0 2]').	
 	self assert: [u asArray = #(#(50 51) #(0 2))].
-	self assert: [u atIndex: 2 = #(50 51)].
-	self assert: [u atIndex: 3 = #(0 2)].
+	self assert: [(u atIndex: 2) asArray = #(50 51)].
+	self assert: [(u atIndex: 3) asArray = #(0 2)].
 	
