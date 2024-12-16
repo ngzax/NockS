@@ -1,5 +1,9 @@
 comparing
 = anotherAtom
 
-	anotherAtom isAtom ifTrue: [^ (self i = anotherAtom i) or: [anotherAtom = self i]].
+	anotherAtom isInteger 
+		ifTrue: [^ self i == anotherAtom]
+		ifFalse: [anotherAtom isAtom
+			ifTrue: [^ (self i = anotherAtom i) or: [anotherAtom = self i]]
+	].
 	^ false.

@@ -1,0 +1,8 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "DJR 12/16/2024 17:14",
+		"testNock0" : "DJR 12/16/2024 17:25",
+		"testNock0BadSlot" : "DJR 12/16/2024 17:32",
+		"testNock0CrashesIfSlotIsACell" : "DJR 12/16/2024 17:35" } }

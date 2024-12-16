@@ -1,0 +1,1 @@
+Nock is a Cell which has a [[subject] [formula]] structure.
