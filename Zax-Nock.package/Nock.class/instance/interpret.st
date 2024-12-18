@@ -10,3 +10,5 @@ interpret
 			ifTrue: [^ self subject atIndex: self slot i]
 			ifFalse: [Error signal: 'Slot must be an Atom']
 		].
+	(op = 1)
+		ifTrue: [^ self slot].

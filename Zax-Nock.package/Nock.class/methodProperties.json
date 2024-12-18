@@ -1,6 +1,7 @@
 {
 	"class" : {
-		"parse:" : "DJR 12/16/2024 17:13" },
+		"parse:" : "DJR 12/16/2024 17:13",
+		"parseString:" : "DJR 12/18/2024 17:05" },
 	"instance" : {
-		"interpret" : "DJR 12/16/2024 17:22",
+		"interpret" : "DJR 12/18/2024 17:12",
 		"isNock" : "DJR 12/16/2024 17:05" } }

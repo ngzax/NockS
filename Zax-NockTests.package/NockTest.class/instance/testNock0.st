@@ -1,6 +1,7 @@
 testing
 testNock0
 	"*[a 0 b]  /[b a]"
+	"Get Noun at address. Returns the Noun at the passed Slot."
 	self assert: [noun1 subject printString = '[50 51]'].
 	
 	"Slot 1"
