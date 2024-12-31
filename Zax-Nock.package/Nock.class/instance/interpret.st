@@ -1,7 +1,7 @@
 running
 interpret
 	"Run the Nock code (if appropriate) and return the result."
-	| op |
+	| base n op |
 	
 	self isNock ifFalse: [Error signal: 'Cannot interpret without [[subject] [formula]]'].
 	op := self opcode.
@@ -12,3 +12,7 @@ interpret
 		].
 	(op = 1)
 		ifTrue: [^ self slot].
+	base := Noun fromArray: (Array with: (self subject asArray) with: ((self formula atIndex: 3) asArray)).
+	n := (Nock parse: base asArray) interpret.
+	n i: ((n i) + 1).
+	^ n.
