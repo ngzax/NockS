@@ -14,5 +14,8 @@ interpret
 		ifTrue: [^ self slot].
 	base := Noun fromArray: (Array with: (self subject asArray) with: ((self formula atIndex: 3) asArray)).
 	n := (Nock parse: base asArray) interpret.
-	n i: ((n i) + 1).
+	(op = 3)
+	  ifTrue: [^ n isCell].
+	(op = 4)
+	  ifTrue: [n i: ((n i) + 1)].
 	^ n.

@@ -8,6 +8,6 @@ testNock4
 	n1 := Nock parseString: '[50 [4 0 1]]'.
 	self assert: [n1 interpret = 51].
 
-	"Cell in slot 7"	
-"	n2 := Nock parseString: '[[20 30] [1 [2 587]]]'.
-	self assert: [n2 interpret = (Cell head: 2 tail: 587)]."
+	"Works Recursively"	
+"	n2 := Nock parseString: '[50 [4 4 01]]'.
+	self assert: [n2 interpret = 52]."
