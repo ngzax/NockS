@@ -6,7 +6,7 @@ fromString: aString
 	| cellArray nounArray |
 	"First split out any cells"
 	cellArray := ((aString copyReplaceTokens: ' ' with: ',') findTokens: ',') asArray.
-	
+	self halt.
 	"Now split any of those cells"
 	nounArray := cellArray collect: [:cellString | Cell parse: cellString].
 

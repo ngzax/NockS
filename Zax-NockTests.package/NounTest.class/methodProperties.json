@@ -3,6 +3,7 @@
 		 },
 	"instance" : {
 		"setUp" : "DJR 12/3/2024 16:50",
+		"testCreating" : "DJR 1/22/2025 17:37",
 		"testHasRightAssociativity" : "DJR 12/10/2024 17:02",
 		"testHasRightAssociativityFor2Tuples" : "DJR 12/10/2024 17:03",
 		"testHasRightAssociativityFor3Tuples" : "DJR 12/10/2024 17:03",
