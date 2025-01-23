@@ -5,9 +5,9 @@ testNock3
 	
 	| n1 n2 |
 	"Atom in slot 1? FALSE"
-	n1 := Nock parseString: '[50 [3 0 1]]'.
+	n1 := Nock parseString: '50 [3 0 1]'.
 	self deny: [n1 interpret].
 
 	"Cell in slot 1? TRUE"	
-	n2 := Nock parseString: '[[20 30] [3 0 1]]'.
+	n2 := Nock parseString: '[20 30] [3 0 1]'.
 	self assert: [n2 interpret].

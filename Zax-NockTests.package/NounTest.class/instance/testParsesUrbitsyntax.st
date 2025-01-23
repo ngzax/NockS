@@ -4,7 +4,7 @@ testParsesUrbitsyntax
 	| u |
 	
 	"[0, 1, 2, 3] => [0, [1, [2, 3]]]"
-	u := (Noun fromString: '[0 1 2 3]').
+	u := (Noun fromString: '0 1 2 3').
 	self assert: [u asArray = #(0 #(1 #(2 3)))].	
 	self assert: [(u atIndex: 2) = atom0].
 	self assert: [(u atIndex: 6) = atom1].

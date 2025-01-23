@@ -5,7 +5,7 @@ testNock4
 	
 	| n1 n2 |
 	"increments a when it's an atom"
-	n1 := Nock parseString: '[50 [4 0 1]]'.
+	n1 := Nock parseString: '50 [4 0 1]'.
 	self assert: [n1 interpret = 51].
 
 	"Works Recursively"	
