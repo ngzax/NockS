@@ -3,5 +3,9 @@
 		"parse:" : "DJR 12/16/2024 17:13",
 		"parseString:" : "DJR 12/18/2024 17:05" },
 	"instance" : {
+		"formula" : "DJR 1/24/2025 14:18",
 		"interpret" : "DJR 1/20/2025 15:50",
-		"isNock" : "DJR 12/16/2024 17:05" } }
+		"isNock" : "DJR 12/16/2024 17:05",
+		"opcode" : "DJR 1/24/2025 14:28",
+		"slot" : "DJR 1/24/2025 14:33",
+		"subject" : "DJR 1/23/2025 17:50" } }
