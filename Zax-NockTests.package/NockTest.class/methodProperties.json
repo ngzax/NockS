@@ -4,7 +4,9 @@
 	"instance" : {
 		"setUp" : "DJR 12/16/2024 17:14",
 		"testCreating" : "DJR 1/22/2025 17:28",
-		"testDistributionRule" : "DJR 1/28/2025 16:54",
+		"testDistributionRule" : "DJR 1/28/2025 17:28",
+		"testDistributionRuleRecursive" : "DJR 1/28/2025 17:29",
+		"testDistributionRuleSimple" : "DJR 1/28/2025 17:29",
 		"testExtractsOpcodeFromTheFormula" : "DJR 1/24/2025 14:30",
 		"testExtractsOpcodeRecursively" : "DJR 1/24/2025 14:31",
 		"testHasASubjectAndFormula" : "DJR 1/24/2025 14:31",

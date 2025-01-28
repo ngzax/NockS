@@ -1,5 +1,5 @@
 testing
-testDistributionRule
+testDistributionRuleSimple
 	"The Nock Formula (or Opcode) (value at tree position 3) is allowed
 	 to be a Cell. This allows us, among other things to have
 	 a function applied against a list of values.
@@ -15,9 +15,3 @@ testDistributionRule
 
 	n1 := Nock parseString: '50 [[0 1] [1 203]]'.
 	self assert: [(n1 interpret) printString = '[50 203]'].
-
-	n1 := Nock parseString: '50 [[0 1] [1 203] [0 1] [1 19] [1 76]]'.
-	self assert: [(n1 interpret) = (Noun fromArray: #(50 203 50 19 76))].
-
-	"n2 := Nock parseString: '[19 20] [[0 1] [1 76] [4 4 0 3]]'.
-	self assert: [(n2 interpret) printString = '[[19 20] 76 22]']."
