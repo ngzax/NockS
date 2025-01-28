@@ -13,8 +13,8 @@ testDistributionRule
 	n2 := Nock parseString: '50 0'.
 	self should: [(n2 interpret) printString] raise: Error.
 
-	"n1 := Nock parseString: '50 [[0 1] [1 203]]'.
-	self assert: [(n1 interpret) printString = '[50 203]']."
+	n1 := Nock parseString: '50 [[0 1] [1 203]]'.
+	self assert: [(n1 interpret) printString = '[50 203]'].
 
 	"n1 := Nock parseString: '50 [[0 1] [1 203] [0 1] [1 19] [1 76]]'.
 	self assert: [(n1 interpret) printString = '[50 203 50 19 76]']."

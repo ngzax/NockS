@@ -1,10 +1,12 @@
 {
 	"class" : {
 		"parse:" : "DJR 12/16/2024 17:13",
-		"parseString:" : "DJR 12/18/2024 17:05" },
+		"parseString:" : "DJR 12/18/2024 17:05",
+		"subject::formula:" : "DJR 1/28/2025 17:14",
+		"subject:formula:" : "DJR 1/28/2025 17:15" },
 	"instance" : {
 		"formula" : "DJR 1/24/2025 14:18",
-		"interpret" : "DJR 1/20/2025 15:50",
+		"interpret" : "DJR 1/28/2025 17:16",
 		"isNock" : "DJR 12/16/2024 17:05",
 		"opcode" : "DJR 1/24/2025 14:28",
 		"slot" : "DJR 1/24/2025 14:33",

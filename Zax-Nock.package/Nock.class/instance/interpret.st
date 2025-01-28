@@ -22,5 +22,9 @@ interpret
 				ifTrue: [^ n isCell].
 			(op = 4)
 				ifTrue: [n i: ((n i) + 1)].
+			^ n.
 		].
-	^ n.
+	
+	^Cell head: ((Nock subject: (self subject) formula: (self formula head)) interpret) 
+	          tail: ((Nock subject: (self subject) formula: (self formula tail)) interpret).
+	
