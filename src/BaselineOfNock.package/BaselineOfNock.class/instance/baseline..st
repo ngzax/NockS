@@ -6,6 +6,6 @@ baseline: spec
 		do: [
 			"Packages"
 			spec
-				package: 'Nock'
-				package: 'Nock-Tests' with: [ spec requires: #('Nock') ]
+				package: 'Nock';
+				package: 'Nock-Tests' with: [ spec requires: #( 'Nock' ) ]
 		]
