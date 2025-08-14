@@ -1,0 +1,15 @@
+{
+	"category" : "BaselineOfNock",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfNock",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal"
+  }
