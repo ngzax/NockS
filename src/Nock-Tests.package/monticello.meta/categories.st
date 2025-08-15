@@ -1,1 +1,1 @@
-self packageOrganizer ensurePackage: #Nock-Tests withTags: #()!
+self packageOrganizer ensurePackage: #'Nock-Tests' withTags: #()!
