@@ -1,15 +1,14 @@
 {
-	"category" : "Nock",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "DJR 11/27/2024 16:19",
+	"super" : "Noun",
+	"category" : "Nock",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"h",
-		"t" ],
+		"t"
+	],
 	"name" : "Cell",
-	"pools" : [
-		 ],
-	"super" : "Noun",
-	"type" : "normal" }
+	"type" : "normal"
+}

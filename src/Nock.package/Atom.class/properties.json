@@ -1,14 +1,13 @@
 {
-	"category" : "Nock",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "DJR 10/18/2024 15:21",
-	"instvars" : [
-		"i" ],
-	"name" : "Atom",
-	"pools" : [
-		 ],
 	"super" : "Noun",
-	"type" : "normal" }
+	"category" : "Nock",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"i"
+	],
+	"name" : "Atom",
+	"type" : "normal"
+}

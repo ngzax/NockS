@@ -7,4 +7,4 @@ fromString: aString
       a := aString copyReplaceAll: '[' with: '#('.
 	b := a copyReplaceAll: ']' with: ')'.
 	c := '#(', b, ')'.	
-	^ Noun fromArray: (Compiler evaluate: c).
+	^ self fromArray: (Smalltalk compiler evaluate: c).
